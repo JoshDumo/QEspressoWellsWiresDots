@@ -30,6 +30,7 @@ degauss=0.005d0,
 &ELECTRONS
 conv_thr=1d-08,
 mixing_beta=0.7d0,
+diago_david_ndim = 4
 /
 CELL_PARAMETERS {alat}
   1.000000000000000   0.000000000000000   0.000000000000000 
