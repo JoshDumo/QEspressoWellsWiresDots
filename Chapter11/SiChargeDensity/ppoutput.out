@@ -1,0 +1,61 @@
+
+     Program POST-PROC v.7.0 starts on 12Dec2024 at  8:52:24 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       2 processor cores
+     Number of MPI processes:                 1
+     Threads/MPI process:                     2
+
+     MPI processes distributed on     1 nodes
+     502 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     ./outputs/silicon.save/
+     file Si.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        3061    2029    577               127171    69239   10251
+
+     Using Slab Decomposition
+
+
+     Calling punch_plot, plot_num =   9
+     Writing data to file  ppoutputfile.txt
+     Reading data from file  ppoutputfile.txt
+
+     Writing data to be plotted to file silicon.xsf
+     Requested parallelepiped sides :   1.0000  1.0000  1.0000
+     Redefined parallelepiped sides :   1.0000  1.0000  1.0000
+     Requested parallelepiped origin:   0.0000  0.0000  0.0000
+     Redefined parallelepiped origin:   0.0000  0.0000  0.0000
+
+     Min, Max, Total, Abs charge:   0.000000  0.028180  0.004474  4.639970
+     Plot Type: 3D                     Output format: XCrySDen     
+
+     POST-PROC    :      3.72s CPU      3.26s WALL
+
+
+   This run was terminated on:   8:52:27  12Dec2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
