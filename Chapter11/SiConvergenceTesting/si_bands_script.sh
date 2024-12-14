@@ -1,11 +1,11 @@
 #!/bin/sh
-NAME="ecut"
+NAME="ecut_bands"
 
-for CUTOFF in  4 6 8 10 12
+for CUTOFF in 4 6 8 10 12
 do
 cat > ${NAME}_${CUTOFF}.in << EOF
  &control
-    calculation = 'scf',
+    calculation = 'bands',
     prefix = 'silicon'
     outdir = './outputs'
     pseudo_dir = '.'
@@ -15,6 +15,7 @@ cat > ${NAME}_${CUTOFF}.in << EOF
     celldm(1) = 10.0,
     nat =  2,
     ntyp = 1,
+    nbnd = 10,
     ecutwfc = $CUTOFF
  /
  &electrons
@@ -28,12 +29,14 @@ ATOMIC_POSITIONS (alat)
  Si 0.0 0.0 0.0
  Si 0.25 0.25 0.25
 
-K_POINTS (automatic)
-  6 6 6 0 0 0
+K_POINTS {crystal_b}
+2
+0.00 0.00 0.00 2 !G
+0.50 0.00 0.50 2 !X
 EOF
 
 pw.x < ${NAME}_${CUTOFF}.in > ${NAME}_${CUTOFF}.out
 echo ${NAME}_${CUTOFF}
-grep ! ${NAME}_${CUTOFF}.out
+grep "k = 0.0000 0.0000 0.0000 (" ${NAME}_${CUTOFF}.out
 
 done
