@@ -1,0 +1,5 @@
+&BANDS
+outdir='./outputs',
+prefix='gaalas50',
+filband='gaalasbands50.dat',
+/
