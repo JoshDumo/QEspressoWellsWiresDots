@@ -1,0 +1,6 @@
+&bands
+   outdir = './outputs',
+   prefix = 'gaas',
+   filband= 'GaAs_bands_wo_soc.dat',
+   lsym=.true.
+/
