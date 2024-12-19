@@ -1,0 +1,5 @@
+&BANDS
+outdir='./outputs',
+prefix='inp',
+filband='inpbands.dat',
+/
