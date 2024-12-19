@@ -1,0 +1,6 @@
+&bands
+   outdir = './outputs',
+   prefix = 'ge',
+   filband= 'Ge_bands_w_soc.dat',
+   lsym=.true.
+/
