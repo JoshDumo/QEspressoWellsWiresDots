@@ -1,0 +1,6 @@
+&bands
+   outdir = './outputs',
+   prefix = 'si',
+   filband= 'Si_bands_wo_soc.dat',
+   lsym=.true.
+/
