@@ -1,0 +1,5 @@
+&BANDS
+outdir='./outputs',
+prefix='cdte',
+filband='cdtebands.dat',
+/
