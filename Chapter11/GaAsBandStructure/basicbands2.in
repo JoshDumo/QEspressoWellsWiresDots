@@ -1,5 +1,0 @@
-&BANDS
-outdir='./outputs',
-prefix='basic',
-filband='gaasbands.dat',
-/
