@@ -1,0 +1,6 @@
+&bands
+   outdir = './outputs',
+   prefix = 'alas',
+   filband= 'AlAs_bands_wo_soc.dat',
+   lsym=.true.
+/
