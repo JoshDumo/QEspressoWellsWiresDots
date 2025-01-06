@@ -1,0 +1,6 @@
+&bands
+   outdir = './outputs',
+   prefix = 'gaalas_sl',
+   filband= 'GaAlAs_n2_sl_bands.dat',
+   lsym=.true.
+/
