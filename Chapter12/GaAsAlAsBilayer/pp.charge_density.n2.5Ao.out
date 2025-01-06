@@ -1,0 +1,67 @@
+
+     Program POST-PROC v.7.0 starts on  6Jan2025 at  4:43: 2 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       2 processor cores
+     Number of MPI processes:                 2
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       2
+     3729 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     ./outputs/gaalas_sl.save/
+     file Al.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P renormalized
+     file Ga.pbe-dn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         546     546    158                67962    67962   10514
+     Max         547     547    159                67965    67965   10519
+     Sum        1093    1093    317               135927   135927   21033
+
+     Using Slab Decomposition
+
+
+     Check: negative core charge=   -0.000007
+
+     Calling punch_plot, plot_num =   9
+     Writing data to file  GaAlAsChargeDensity.txt
+     Reading data from file  GaAlAsChargeDensity.txt
+
+     Writing data to be plotted to file GaAlAs_n2_sl_charge_density.xsf
+     Requested parallelepiped sides :   1.0000  1.0000  5.0000
+     Redefined parallelepiped sides :   1.0000  1.0000  5.0000
+     Requested parallelepiped origin:   0.0000  0.0000  0.0000
+     Redefined parallelepiped origin:   0.0000  0.0000  0.0000
+
+     Min, Max, Total, Abs charge:   0.000000  0.022514  0.279216 98.679796
+     Plot Type: 3D                     Output format: XCrySDen     
+
+     POST-PROC    :      9.70s CPU     12.69s WALL
+
+
+   This run was terminated on:   4:43:15   6Jan2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
